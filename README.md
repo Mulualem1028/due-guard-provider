@@ -22,7 +22,6 @@ DueGuard helps you stay on top of expiry dates before they catch you off guard. 
 | API | [DummyJSON](https://dummyjson.com) | public, no auth |
 
 
-
 ## API & Data
 
 Item data is fetched from the [DummyJSON](https://dummyjson.com) public REST API. On first load, the app pulls real products from the Cosmetics and Electronics categories. Medicine, Subscriptions, and Documents have no equivalent in DummyJSON, so they start empty by design — users populate them by adding items via the Create form, which fires a real `POST /products/add` to the API. DummyJSON accepts all HTTP methods and returns valid responses but does not persist changes server-side; the app handles this by updating local state in `ItemProvider` immediately after each successful response.
@@ -46,22 +45,22 @@ Item data is fetched from the [DummyJSON](https://dummyjson.com) public REST API
 ## Screenshots
 
 ### Get Started
-![Get Started](assets/images/get_started.png)
+<img src="assets/images/get_started.png" width="300"/>
 
 ### Home
-![Home](assets/images/home.png)
+<img src="assets/images/home.png" width="300"/>
 
 ### Detail
-![Detail](assets/images/detail.png)
+<img src="assets/images/detail.png" width="300"/>
 
 ### Add Item
-![Add](assets/images/add.png)
+<img src="assets/images/add.png" width="300"/>
 
 ### Edit Item
-![Edit](assets/images/edit.png)
+<img src="assets/images/edit.png" width="300"/>
 
 ### Delete Item
-![Delete](assets/images/delete.png)
+<img src="assets/images/delete.png" width="300"/>
 
 ### Analytics
-![Analytics](assets/images/analytics.png)
+<img src="assets/images/analytics.png" width="300"/>
